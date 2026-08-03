@@ -306,29 +306,6 @@ This project was built systematically across 5 phases, demonstrating both Full-S
 - Fast feedback loops (2-3 minute builds)
 - Dependency caching strategies
 
-**Screenshots**:
-
-![Local Tests Passed](documentation/phase-4/screenshots/phase4_local_tests_passed.png)
-*Figure 4.1: Tests passing locally before pushing*
-
-![Git Push Trigger](documentation/phase-4/screenshots/phase4_git_push_trigger.png)
-*Figure 4.2: Pushing code to trigger CI pipeline*
-
-![Workflow Running](documentation/phase-4/screenshots/phase4_workflow_running.png)
-*Figure 4.3: GitHub Actions workflow in progress*
-
-![Workflow Success](documentation/phase-4/screenshots/phase4_workflow_success.png)
-*Figure 4.4: All CI jobs completed successfully*
-
-![Test Job Details](documentation/phase-4/screenshots/phase4_test_job_details.png)
-*Figure 4.5: Detailed test job execution logs*
-
-![Build Job Details](documentation/phase-4/screenshots/phase4_build_job_details.png)
-*Figure 4.6: Docker build job with layer caching*
-
-![CI Badge](documentation/phase-4/screenshots/phase4_ci_badge.png)
-*Figure 4.7: CI status badge on GitHub*
-
 ---
 
 ### Phase 5: AWS ECS Fargate Deployment
@@ -405,59 +382,6 @@ This project was built systematically across 5 phases, demonstrating both Full-S
 - Container orchestration fundamentals
 - Blue-green deployment strategies
 - Cloud cost optimization
-
-**Screenshots**:
-
-![AWS Configure](documentation/phase-5/screenshots/phase5_aws_configured.png)
-*Figure 5.1: AWS CLI configured with credentials*
-
-![ECR Created](documentation/phase-5/screenshots/phase5_ecr_created.png)
-*Figure 5.2: ECR repository created*
-
-![ECR Push Success](documentation/phase-5/screenshots/phase5_ecr_push_success.png)
-*Figure 5.3: Docker image pushed to ECR*
-
-![ECS Cluster Created](documentation/phase-5/screenshots/phase5_ecs_cluster_created.png)
-*Figure 5.4: ECS cluster initialized*
-
-![Security Group Created](documentation/phase-5/screenshots/phase5_security_group_created.png)
-*Figure 5.5: Security group with port 8501 open*
-
-![Task Definition Created](documentation/phase-5/screenshots/phase5_task_definition_created.png)
-*Figure 5.6: ECS task definition registered*
-
-![ECS Service Created](documentation/phase-5/screenshots/phase5_ecs_service_created.png)
-*Figure 5.7: ECS service running*
-
-![App Running on AWS](documentation/phase-5/screenshots/phase5_app_running_on_aws.png)
-*Figure 5.8: Application live on AWS*
-
-![GitHub Secrets](documentation/phase-5/screenshots/phase5_github_secrets.png)
-*Figure 5.9: AWS credentials stored as GitHub Secrets*
-
-![CD Trigger Push](documentation/phase-5/screenshots/phase5_cd_trigger_push.png)
-*Figure 5.10: Code push triggering CD pipeline*
-
-![CD Workflow Running](documentation/phase-5/screenshots/phase5_cd_workflow_running.png)
-*Figure 5.11: CD pipeline executing*
-
-![CD Workflow Success](documentation/phase-5/screenshots/phase5_cd_workflow_success.png)
-*Figure 5.12: Automated deployment successful*
-
-![Deployment Logs](documentation/phase-5/screenshots/phase5_deployment_logs.png)
-*Figure 5.13: Detailed deployment logs*
-
-![ECS Console Running](documentation/phase-5/screenshots/phase5_ecs_console_running.png)
-*Figure 5.14: ECS console showing healthy service*
-
-![Production App Working](documentation/phase-5/screenshots/phase5_production_app_working.png)
-*Figure 5.15: Production application accessible*
-
-![Multiple Deployments](documentation/phase-5/screenshots/phase5_multiple_deployments.png)
-*Figure 5.16: Multiple automated deployments*
-
-![CloudWatch Logs](documentation/phase-5/screenshots/phase5_cloudwatch_logs.png)
-*Figure 5.17: Real-time logs in CloudWatch*
 
 ---
 
@@ -963,23 +887,6 @@ aws ecs update-service --desired-count 0 ...
 
 ---
 
-## 🎓 Project Documentation
-
-Complete phase-by-phase documentation available in `/documentation`:
-
-- [Phase 1: Environment Setup](documentation/phase-1/README.md)
-- [Phase 2: Dockerization](documentation/phase-2/README.md)
-- [Phase 3: GitHub Repository](documentation/phase-3/README.md)
-- [Phase 4: CI Pipeline](documentation/phase-4/README.md)
-- [Phase 5: AWS Deployment](documentation/phase-5/README.md)
-- [Architecture Overview](documentation/phase-5/architecture.md)
-
----
-
-## 📝 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
 ---
 
 ## 🙏 Acknowledgments
@@ -991,25 +898,27 @@ This project is open source and available under the [MIT License](LICENSE).
 - **GitHub** - For version control and CI/CD
 
 ---
+## 👤 Author
 
-## 📞 Support & Feedback
+**Divya V**  
+*Computer Science Engineering Student | AI/ML Enthusiast | Full-Stack Developer*
 
-For issues, questions, or suggestions:
+- 🔗 GitHub: https://github.com/Divya40789926
+- 📧 Email: dv4079926@gmail.com
+- 💼 LinkedIn: https://www.linkedin.com/in/divya-v07
 
-- **Open an Issue**: [GitHub Issues](https://github.com/tejas1024/personal-ai-advisor/issues)
-- **Documentation**: Check `/documentation` folder
-- **Email**: tejaspavithra2002@gmail.com
+### Professional Summary
 
----
+Final-year Computer Science Engineering student passionate about AI/ML, full-stack development, and cloud-native technologies. Hands-on experience building end-to-end applications using React, Django, Docker, Kubernetes, and AWS through academic and personal projects. Interested in DevOps, infrastructure automation, and developing scalable, production-ready solutions while continuously learning modern software engineering practices.
 
-<div align="center">
+### Technical Skills
 
-### ⭐ If you find this project useful, please give it a star!
-
-**Built with ❤️ using Python, Docker, AWS, and GitHub Actions**
-
----
-
+- **Languages:** Python, JavaScript, HTML, CSS, SQL, YAML
+- **Frontend:** React, HTML5, CSS3
+- **Backend:** Django, REST APIs
+- **DevOps & Cloud:** Docker, Kubernetes, Helm, ArgoCD, GitHub Actions, AWS (ECS, Fargate, ECR, VPC, CloudWatch)
+- **Databases:** PostgreSQL, SQLite
+- **Tools:** Git, GitHub, NGINX, Gunicorn, Tesseract OCR
 *Last Updated: January 2026*
 
 </div>
