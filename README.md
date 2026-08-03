@@ -2,7 +2,7 @@
 
 > A production-ready Full-Stack AI application with complete DevOps automation, deployed on AWS ECS Fargate
 
-[![CI Pipeline](https://github.com/Divya40789926/personal-ai-advisor/actions/workflows/ci.yml/badge.svg)](https://github.com/tejas1024/personal-ai-advisor/actions)
+[![CI Pipeline](https://github.com/Divya40789926/personal-ai-advisor/actions/workflows/ci.yml/badge.svg)](https://github.com/Divya40789926/personal-ai-advisor/actions)
 [![Docker](https://img.shields.io/badge/Docker-Ready-blue?logo=docker)](https://www.docker.com/)
 [![Python](https://img.shields.io/badge/Python-3.11-green?logo=python)](https://www.python.org/)
 [![AWS ECS](https://img.shields.io/badge/AWS-ECS%20Fargate-orange?logo=amazon-aws)](https://aws.amazon.com/ecs/)
